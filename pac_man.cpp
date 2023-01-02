@@ -81,7 +81,7 @@ int main()
                     grid[current_row - 1][current_column] = character;
                     grid[current_row][current_column] = "0";
                     current_row--;
-                    
+                    moveEnemy(enemy1, enemy2, enemy3, enemy4);  //The function moves all four characters.
                 }
                 else if (grid[current_row - 1][current_column] == food)
                 {
@@ -89,10 +89,11 @@ int main()
                     grid[current_row][current_column] = "0";
                     current_row--;
                     score += 20;
+                    moveEnemy(enemy1, enemy2, enemy3, enemy4);
                 }
-                else if (grid[current_row - 1][current_column] == enemy)
+                else if (grid[current_row - 1][current_column] == enemy1)
                 {
-                    moveEnemy();
+                    /* Game Over */
                 }
                 
                 else if (grid[current_row - 1][current_column] == "42")
