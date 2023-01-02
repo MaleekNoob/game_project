@@ -1,0 +1,6 @@
+RULES
+--> You will have to control your character using up, down, left, right arrow keys.
+--> Each '33' symbol in the given grid is food that you have to eat in order to gain 20 points.
+--> Avoid bumping into '-1' and '42' symbols as you are not allowed to move over those regions.
+--> This game is under development, therefore any kind of error or flaw/glitch is expected.
+--> Enjoy :-)
