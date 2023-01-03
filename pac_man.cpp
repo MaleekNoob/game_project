@@ -782,7 +782,7 @@ void scan (string array[][16],int &current_row_character, int &current_column_ch
     //character
     for (int i = 0; i < 9; i++)
     {
-        for (int j = 0; i < 16; j++)
+        for (int j = 0; j < 16; j++)
         {
             if (array[i][j] == character)
             {
@@ -795,7 +795,7 @@ void scan (string array[][16],int &current_row_character, int &current_column_ch
     //enemy 1
     for (int i = 0; i < 9; i++)
     {
-        for (int j = 0; i < 16; j++)
+        for (int j = 0; j < 16; j++)
         {
             if (array[i][j] == enemy1)
             {
@@ -808,7 +808,7 @@ void scan (string array[][16],int &current_row_character, int &current_column_ch
     //enemy 2
     for (int i = 0; i < 9; i++)
     {
-        for (int j = 0; i < 16; j++)
+        for (int j = 0; j < 16; j++)
         {
             if (array[i][j] == enemy2)
             {
@@ -821,7 +821,7 @@ void scan (string array[][16],int &current_row_character, int &current_column_ch
     //enemy 3
     for (int i = 0; i < 9; i++)
     {
-        for (int j = 0; i < 16; j++)
+        for (int j = 0; j < 16; j++)
         {
             if (array[i][j] == enemy3)
             {
@@ -834,7 +834,7 @@ void scan (string array[][16],int &current_row_character, int &current_column_ch
     //enemy 4
     for (int i = 0; i < 9; i++)
     {
-        for (int j = 0; i < 16; j++)
+        for (int j = 0; j < 16; j++)
         {
             if (array[i][j] == enemy4)
             {
