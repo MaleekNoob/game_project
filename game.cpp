@@ -769,3 +769,71 @@ void moveEnemy (string array[9][16], int current_row_character, int current_colu
         break;
     }
 }
+
+void scan(string array[][16],int &current_row_character, int &current_column_character, int &current_row_enemy1,int &current_column_enemy1,int &current_row_enemy2,int &current_column_enemy2,int &current_row_enemy3,int &current_column_enemy3,int &current_row_enemy4, int &current_column_enemy4)
+{
+    //character
+    for (int i = 0; i < 9; i++)
+    {
+        for (int j = 0; j < 16; j++)
+        {
+            if (array[i][j] == character)
+            {
+                current_row_character = i;
+                current_column_character = j;
+            }
+        }
+    }
+    
+    //enemy 1
+    for (int i = 0; i < 9; i++)
+    {
+        for (int j = 0; j < 16; j++)
+        {
+            if (array[i][j] == enemy1)
+            {
+                current_row_enemy1 = i;
+                current_column_enemy1 = j;
+            }
+        }
+    }
+
+    //enemy 2
+    for (int i = 0; i < 9; i++)
+    {
+        for (int j = 0; j < 16; j++)
+        {
+            if (array[i][j] == enemy2)
+            {
+                current_row_enemy2 = i;
+                current_column_enemy2= j;
+            }
+        }
+    }
+
+    //enemy 3
+    for (int i = 0; i < 9; i++)
+    {
+        for (int j = 0; j < 16; j++)
+        {
+            if (array[i][j] == enemy3)
+            {
+                current_row_enemy3 = i;
+                current_column_enemy3= j;
+            }
+        }
+    }
+
+    //enemy 4
+    for (int i = 0; i < 9; i++)
+    {
+        for (int j = 0; j < 16; j++)
+        {
+            if (array[i][j] == enemy4)
+            {
+                current_row_enemy4 = i;
+                current_column_enemy4= j;
+            }
+        }
+    }
+}
